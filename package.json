@@ -1,0 +1,11 @@
+{
+  "name": "desafio-tecnico-avenue",
+  "version": "1.0.0",
+  "description": "Projeto desafio técnico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karolyne Silva",
+  "license": "MIT"
+}
