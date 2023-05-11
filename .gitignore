@@ -1,0 +1,8 @@
+# Ignore os arquivos node_modules
+node_modules
+
+# Ignorar arquivos de mídias 
+Vídeos
+cadastro.cy.js.mp4
+carrinhoCompras.cy.js.mp4
+request.cy.js.mp4

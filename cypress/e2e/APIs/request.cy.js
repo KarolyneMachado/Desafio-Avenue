@@ -70,7 +70,7 @@ describe('Teste da API Open Weather', () => {
         expect(response.status).to.eq(200)
         expect(response.body.main.temp).to.not.be.null
         expect(response.body.weather[0].description).to.not.be.null
-        expect(response.body.weather[0].description).to.eq('nublado')
+        expect(response.body.weather[0].description).to.eq('névoa')
       })
     })
 
