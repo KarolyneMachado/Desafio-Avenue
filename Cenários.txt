@@ -1,0 +1,34 @@
+Cenários importantes á serem executados na plataforma da Avenue
+
+Cenário 1: Teste de transações com ativos financeiros
+
+Dado que sou um investidor registrado na plataforma Avenue
+Quando eu realizar uma transação de compra de um ativo financeiro específico
+Então a transação deve ser executada com sucesso e refletida no meu portfólio
+E o valor do ativo adquirido deve ser deduzido do meu saldo disponível
+E eu devo receber uma confirmação da transação com as informações relevantes
+
+Cenário 2: Teste de segurança da plataforma
+
+Dado que sou um usuário da plataforma Avenue
+Quando eu fornecer minhas informações pessoais e financeiras
+Então a plataforma deve garantir a segurança das minhas informações, protegendo-as contra invasões e ameaças cibernéticas
+E todas as transações e comunicações devem ser criptografadas para garantir a privacidade dos dados
+E a plataforma deve ter um sistema de autenticação seguro, como autenticação de dois fatores, para evitar acesso não autorizado à minha conta
+
+Cenário 3: Teste de usabilidade e experiência do usuário
+
+Dado que sou um investidor utilizando a plataforma Avenue
+Quando eu acessar a plataforma e navegar pela interface do usuário
+Então a plataforma deve apresentar uma interface intuitiva e de fácil utilização
+E as informações sobre ativos financeiros disponíveis devem ser apresentadas de forma clara e organizada
+E a plataforma deve oferecer recursos de pesquisa e filtragem para ajudar na descoberta de ativos
+E as funcionalidades de compra e venda de ativos devem ser fáceis de acessar e executar
+E a plataforma deve fornecer feedback claro sobre o status das minhas transações e atualizações do meu portfólio
+
+A importância desses cenários é que eles permitem avaliar a eficácia e a confiabilidade da plataforma Avenue em diferentes áreas. 
+Os testes de transações com ativos financeiros permitem avaliar a eficiência do sistema de negociação em lidar com a demanda de transações e com a 
+precisão das operações realizadas. Os testes de segurança permitem avaliar a capacidade da plataforma de proteger as informações dos usuários e manter a 
+integridade do sistema. Já os testes de usabilidade e experiência do usuário permitem avaliar a facilidade de uso e acessibilidade da plataforma para os investidores, 
+garantindo a satisfação do cliente e a fidelidade dos usuários. Em resumo, esses cenários são fundamentais para garantir que a plataforma Avenue seja segura, eficiente e fácil de usar, 
+oferecendo uma experiência de negociação positiva e confiável para os investidores.
