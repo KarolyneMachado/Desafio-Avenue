@@ -12,8 +12,5 @@ describe('Cadastro de usuário na Amazon', () => {
       cy.get('#ap_email').type('teste@example.com')
       cy.get('#ap_password').type('senha123')
       cy.get('#ap_password_check').type('senha123')
-      //cy.get('#continue').click()
-      //cy.url().should('include', '/ap/register')
-      //cy.get('#ap_register_form').should('be.visible')
     })
   })

@@ -93,7 +93,7 @@ describe('Teste da API Open Weather', () => {
       })
     })
 
-    it('Deve retornar informações da cidade de São Paulo com coordenadas com código 200', () => {
+    it('CT06- Deve retornar informações da cidade de São Paulo com coordenadas com código 200', () => {
       cy.request({
         method: 'GET',
         url: 'https://api.openweathermap.org/data/2.5/weather',
