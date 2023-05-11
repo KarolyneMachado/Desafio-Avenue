@@ -68,10 +68,9 @@ describe('Teste da API Open Weather', () => {
         }
       }).then((response) => {
         expect(response.status).to.eq(200)
-        //expect(response.body.name).to.eq(city)
-        expect(response.body.sys.country).to.eq('BR')
         expect(response.body.main.temp).to.not.be.null
         expect(response.body.weather[0].description).to.not.be.null
+        expect(response.body.weather[0].description).to.eq('nublado')
       })
     })
 
@@ -104,7 +103,6 @@ describe('Teste da API Open Weather', () => {
         }
       }).then((response) => {
         expect(response.status).to.eq(200)
-        //expect(response.body.name).to.eq(city)
         expect(response.body.sys.country).to.eq('BR')
         expect(response.body.main.temp).to.not.be.null
       })
