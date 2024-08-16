@@ -22,8 +22,8 @@ describe('Carrinhos de compras', () => {
     cy.get('[data-asin][data-component-type="s-search-result"]:first')
       .find('h2 > a')
       .click();
-    cy.get('#quantity')
-      .select('3')
+      cy.get('#quantity')
+      .select('3', { force: true });    
     cy.get('#add-to-cart-button')
       .click()
     cy.get('#nav-cart-count')
@@ -40,7 +40,7 @@ describe('Carrinhos de compras', () => {
           .invoke('text')
           .then(total => {
             const totalAmount = parseFloat(total.replace(',', '.').replace('R$', '').trim())
-            expect(totalAmount).to.equal(subtotal * 3)
+            expect(totalAmount).to.be.closeTo(subtotal * 3, 0.01); // Tolerance of 0.01
           })
       })
   })

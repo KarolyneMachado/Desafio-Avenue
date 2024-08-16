@@ -9,6 +9,7 @@
   "author": "Karolyne Silva",
   "license": "MIT",
   "devDependencies": {
+    "@bahmutov/cy-api": "^2.2.6",
     "cypress": "^13.13.3"
   }
 }
