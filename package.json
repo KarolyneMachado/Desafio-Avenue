@@ -9,6 +9,6 @@
   "author": "Karolyne Silva",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.12.0"
+    "cypress": "^13.13.3"
   }
 }
